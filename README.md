@@ -10,7 +10,7 @@ A repo that compiles the list of subdomains per Government with or without SSL
 | D | 0 |
 | E | 0 |
 | F | 1 |
-| T | 10 |
+| T | 9 |
 | Unable to connect to the server | 2 |
 
 ### Summary of SSL Status
