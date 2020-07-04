@@ -1,6 +1,10 @@
 # ssl-gov-ph
 A repo that compiles the list of subdomains per Government with or without SSL
 
+I used the following tools to check and grade SSL:
+- SSL Checker - https://www.sslshopper.com/ssl-checker.html
+- SSL Server Test - https://www.ssllabs.com/ssltest/index.html
+
 ### Summary of SSL Ratings
 | Ratings | Number of Gov Sites |
 | --- | --- | 
