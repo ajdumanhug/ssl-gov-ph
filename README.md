@@ -23,6 +23,7 @@ A repo that compiles the list of subdomains per Government with or without SSL
 
 ### Summary of Certificate Issuer
 | Issuer | Number of Gov Sites |
+| --- | --- |
 | Let's Encrypt | 7 |
 | localhost 🤣 | 2 |
 | Entrust | 1 |
