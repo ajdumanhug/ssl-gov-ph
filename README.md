@@ -8,39 +8,43 @@ I used the following tools to check and grade SSL:
 ### Summary of SSL Ratings
 | Ratings | Number of Gov Sites |
 | --- | --- | 
-| A | 4 |
-| B | 11 |  
-| C | 1 | 
+| A+ | 1 |
+| A | 5 |
+| B | 18 |  
+| C | 4 | 
 | D | 0 |
 | E | 0 |
-| F | 1 |
-| T | 9 |
-| Unable to connect to the server | 2 |
+| F | 2 |
+| T | 15 |
+| No SSL certificates were found | 9 |
 
 ### Summary of SSL Status
 | Status | Number of Gov Sites |
 | --- | --- |
-| Active | 18 |
-| Expired | 7 |
+| Active | 31 |
+| Expired | 13 |
 | Self-Signed | 1 |
-| Unable to connect to the server | 2 |
+| No SSL certificates were found | 9 |
 
 ### Summary of Certificate Issuer
 | Issuer | Number of Gov Sites |
 | --- | --- |
-| Let's Encrypt | 7 |
-| localhost 🤣 | 2 |
-| Entrust | 1 |
-| GlobalSign | 8 |
+| Let's Encrypt | 13 |
+| localhost 🤣 | 3 |
+| Entrust | 3 |
+| GlobalSign | 15 |
 | Go Daddy | 2 |
 | ZeroSSL | 1 |
-| GeoTrust | 1 |
+| GeoTrust | 2 |
 | CloudFlare | 2 |
 | DigiCert | 1 |
 | Gov-SSL | 1 |
-| Unable to connect to the server | 2 |
+| RapidSSL | 1 |
+| Sectigo | 1 |
+| No SSL certificates were found | 9 |
 
 ---
+## Departments
 
 ### National Government
 | Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at |
@@ -139,7 +143,7 @@ I used the following tools to check and grade SSL:
 ### Department of Public Works and Highways
 | Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at |
 | --- | --- | --- | --- | --- | --- |
-| http://www.dpwh.gov.ph/ | Unable to connect to the server | | | | July 4, 2020 |
+| http://www.dpwh.gov.ph/ | No SSL certificates were found | | | | July 4, 2020 |
 
 ### Department of Science and Technology
 | Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at |
@@ -154,7 +158,7 @@ I used the following tools to check and grade SSL:
 ### Department of Tourism
 | Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at |
 | --- | --- | --- | --- | --- | --- |
-| http://www.tourism.gov.ph/ | Unable to connect to the server | | | | July 4, 2020 |
+| http://www.tourism.gov.ph/ | No SSL certificates were found | | | | July 4, 2020 |
 
 ### Department of Trade and Industry
 | Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at |
@@ -170,3 +174,66 @@ I used the following tools to check and grade SSL:
 | Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at |
 | --- | --- | --- | --- | --- | --- |
 | http://www.neda.gov.ph/ | Expired | November 8, 2019 | localhost | [T](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/neda.png) | July 4, 2020 |
+
+---
+
+## Government websites with Online Services
+
+### [Business Trade](https://www.gov.ph/business-and-trade)
+**Agricultural Business**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at |
+| --- | --- | --- | --- | --- | --- |
+| https://e-extension.gov.ph/ | Expired | January 27, 2020 | Sectigo | [T](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/e-extension.png) | July 5, 2020 |
+
+**Business Copyright, Trademark and Patent**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at |
+| --- | --- | --- | --- | --- | --- |
+| http://121.58.254.39:8080/ | No SSL certificates were found | | | | July 5, 2020 |
+| https://onlineservices.ipophil.gov.ph/ | Expired | July 4, 2020 | Let's Encrypt | [T](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/onlineservices.ipophil.png) | July 5, 2020 |
+| https://www.ddb.gov.ph/ | Active | September 10, 2020 | GlobalSign | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/ddb.png) | July 5, 2020 |
+
+**Business Registration, Certificates and Compliance**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at |
+| --- | --- | --- | --- | --- | --- |
+| https://emb.gov.ph/ | Active | February 20, 2022 | GlobalSign | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/emb.png) | July 5, 2020 |
+| https://cnconline.emb.gov.ph/ | Active | September 25, 2021 | GlobalSign | [C](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/cnconline.emb.png) | July 5, 2020 |
+| http://119.92.161.13/cmr/ | No SSL certificates were found | | | | July 5, 2020 |
+| http://119.92.161.21/live/ | No SSL certificates were found | | | | July 5, 2020 |
+| https://opms.emb.gov.ph/ | Active | September 25, 2021 | GlobalSign | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/opms.emb.png) | July 5, 2020 |
+| https://www.erc.gov.ph/ | Active | January 21, 2021 | RapidSSL | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/erc.png) | July 5, 2020 |
+| http://apps.poea.gov.ph/ | No SSL certificates were found | | | | July 5, 2020 |
+| http://www.sec.gov.ph/ | Expired | February 7, 2020 | GeoTrust | [T](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/sec.png) | July 5, 2020 |
+| https://bnrs.dti.gov.ph/ | Active | December 20, 2021 | GlobalSign | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/bnrs.dti.png) | July 5, 2020 |
+| http://crsquery.sec.gov.ph/ | Expired | November 8, 2019 | localhost | [T](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/crsquery.sec.png) | July 5, 2020 |
+| https://crs.sec.gov.ph/ | Active | January 1, 2022 | GlobalSign | [F](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/crs.sec.png) | July 5, 2020 |
+| https://midas.mtrcb.gov.ph/ | Active | December 27, 2020 | GlobalSign | [C](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/midas.mtrcb.png) | July 5, 2020 |
+| http://hlurb.gov.ph/ | Expired | April 21, 2020 | Let's Encrypt | [T](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/hlurb.png) | July 5, 2020 |
+| https://secexpress.ph/ | Active | August 8, 2020 | Let's Encrypt | [C](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/secexpress.png) | July 5, 2020 |
+| https://sens.secexpress.ph/ | Active | September 24, 2020 | Let's Encrypt | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/sens.secexpress.png) | July 5, 2020 |
+
+**Complaints**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at |
+| --- | --- | --- | --- | --- | --- |
+| http://investor.boiown.gov.ph/ | No SSL certificates were found | | | | July 5, 2020 |
+| http://ciap-portal.dti.gov.ph/ | No SSL certificates were found | | | | July 5, 2020 |
+| https://boi.gov.ph/ | Active | October 14, 2021 | Entrust | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/boi.png) | July 5, 2020 |
+
+**Financial Assistance**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at |
+| --- | --- | --- | --- | --- | --- |
+| https://www.dbp.ph/ | Active | August 27, 2022 | Entrust | [A+](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/dbp.ph.png) | July 5, 2020 |
+
+**Import and Export**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at |
+| --- | --- | --- | --- | --- | --- |
+| http://finder.tariffcommission.gov.ph/ | Active | September 24, 2020 | Let's Encrypt | [A](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/finder.tariffcommission.png) | July 5, 2020 |
+
+**List of Suppliers**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at |
+| --- | --- | --- | --- | --- | --- |
+| http://philmet.mirdc.dost.gov.ph/ | No SSL certificates were found | | | | July 5, 2020 |
+
+**Price Control Monitoring**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at |
+| --- | --- | --- | --- | --- | --- |
+| http://nfa.gov.ph/ | Expired | April 21, 2020 | Let's Encrypt | [T](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/nfa.gov.ph.png) | July 5, 2020 |
