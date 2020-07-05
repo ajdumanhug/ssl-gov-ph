@@ -9,12 +9,12 @@ I used the following tools to check and grade SSL:
 | Ratings | Number of Gov Sites |
 | --- | --- | 
 | A+ | 2 |
-| A | 7 |
-| B | 23 |  
+| A | 8 |
+| B | 25 |  
 | C | 4 | 
 | D | 0 |
 | E | 0 |
-| F | 2 |
+| F | 3 |
 | T | 15 |
 | No SSL certificates were found | 9 |
 | Internal Server Error | 1 |
@@ -22,7 +22,7 @@ I used the following tools to check and grade SSL:
 ### Summary of SSL Status
 | Status | Number of Gov Sites |
 | --- | --- |
-| Active | 39 |
+| Active | 43 |
 | Expired | 13 |
 | Self-Signed | 1 |
 | No SSL certificates were found | 9 |
@@ -34,7 +34,7 @@ I used the following tools to check and grade SSL:
 | Let's Encrypt | 16 |
 | localhost 🤣 | 3 |
 | Entrust | 3 |
-| GlobalSign | 17 |
+| GlobalSign | 21 |
 | Go Daddy | 2 |
 | ZeroSSL | 1 |
 | GeoTrust | 2 |
@@ -79,6 +79,7 @@ I used the following tools to check and grade SSL:
 **Government websites with Online Services**
 - [Business Trade](#business-trade)
 - [Certificates and IDs](#certificates-and-ids)
+- [Contributions](#contributions)
 
 ---
 ## Departments
@@ -300,3 +301,16 @@ I used the following tools to check and grade SSL:
 | Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at |
 | --- | --- | --- | --- | --- | --- |
 | https://www.comelec.gov.ph/ | Active | August 26, 2020 | CloudFlare | [A](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/comelec.png) | July 5, 2020 |
+
+### [Contributions](https://www.gov.ph/contributions)
+**Benefits Registration**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at |
+| --- | --- | --- | --- | --- | --- |
+| https://www.philhealth.gov.ph/ | Active | March 3, 2022 | GlobalSign | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/philhealth.png) | July 5, 2020 |
+| https://www.pagibigfundservices.com/ | Active | December 12, 2020 | GlobalSign | [F](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/pagibigfundservices.png) | July 5, 2020 |
+| https://eprs01.philhealth.gov.ph/ | Active | March 3, 2022 | GlobalSign | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/eprs01.philhealth.png) | July 5, 2020 |
+
+**Certificates**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://egsismo.gsis.gov.ph/ | Active | October 16, 2020 | GlobalSign | [A](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/egsismo.gsis.png) | July 5, 2020 |
