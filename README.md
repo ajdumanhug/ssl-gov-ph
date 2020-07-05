@@ -9,23 +9,23 @@ I used the following tools to check and grade SSL:
 | Ratings | Number of Gov Sites |
 | --- | --- | 
 | A+ | 2 |
-| A | 8 |
-| B | 25 |  
+| A | 9 |
+| B | 26 |  
 | C | 4 | 
 | D | 0 |
 | E | 0 |
 | F | 3 |
-| T | 15 |
-| No SSL certificates were found | 9 |
+| T | 16 |
+| No SSL certificates were found | 10 |
 | Internal Server Error | 1 |
 
 ### Summary of SSL Status
 | Status | Number of Gov Sites |
 | --- | --- |
-| Active | 43 |
+| Active | 46 |
 | Expired | 13 |
 | Self-Signed | 1 |
-| No SSL certificates were found | 9 |
+| No SSL certificates were found | 10 |
 | Internal Server Error | 1 |
 
 ### Summary of Certificate Issuer
@@ -34,15 +34,16 @@ I used the following tools to check and grade SSL:
 | Let's Encrypt | 16 |
 | localhost 🤣 | 3 |
 | Entrust | 3 |
-| GlobalSign | 21 |
+| GlobalSign | 22 |
 | Go Daddy | 2 |
 | ZeroSSL | 1 |
 | GeoTrust | 2 |
 | CloudFlare | 3 |
-| DigiCert | 3 |
+| DigiCert | 4 |
 | Gov-SSL | 1 |
 | RapidSSL | 1 |
 | Sectigo | 2 |
+| tews2.asti.dost.gov.ph | 1 |
 | No SSL certificates were found | 9 |
 | Internal Server Error | 1 |
 
@@ -80,6 +81,7 @@ I used the following tools to check and grade SSL:
 - [Business Trade](#business-trade)
 - [Certificates and IDs](#certificates-and-ids)
 - [Contributions](#contributions)
+- [Disaster and Weather](#disaster-and-weather)
 
 ---
 ## Departments
@@ -314,3 +316,16 @@ I used the following tools to check and grade SSL:
 | Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
 | --- | --- | --- | --- | --- | --- |
 | https://egsismo.gsis.gov.ph/ | Active | October 16, 2020 | GlobalSign | [A](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/egsismo.gsis.png) | July 5, 2020 |
+
+### [Disaster and Weather](https://www.gov.ph/disaster-and-weather)
+**Disaster-prone Areas**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://www.phivolcs.dost.gov.ph/ | Active | July 6, 2021 | GlobalSign | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/phivolcs.dost.png) | July 5, 2020 |
+| https://dromic.dswd.gov.ph/ | Active | September 16, 2020 | DigiCert | [A](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/dromic.dswd.png) | July 5, 2020 |
+
+**Weather**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| http://fmon.asti.dost.gov.ph/ | Active | January 14, 2021 | tews2.asti.dost.gov.ph | [T](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/fmon.asti.dost.png) | July 6, 2020 |
+| http://noah.up.edu.ph/ | No SSL certificates were found | | | | July 6, 2020 |
