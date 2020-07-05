@@ -47,6 +47,40 @@ I used the following tools to check and grade SSL:
 | Internal Server Error | 1 |
 
 ---
+
+## Table of Contents
+**Departments**
+- [National Government](#national-government)
+- [Office of the President](#office-of-the-president)
+- [Office of the Vice President](#office-of-the-vice-president)
+- [Senate of the Philippines](#senate-of-the-philippines)
+- [Department of Agrarian Reform](#department-of-agrarian-reform)
+- [Department of Agriculture](#department-of-agriculture)
+- [Department of Budget and Management](#department-of-budget-and-management)
+- [Department of Education](#department-of-education)
+- [Department of Energy](#department-of-energy)
+- [Department of Environment and Natural Resources](#department-of-environment-and-natural-resources)
+- [Department of Finance](#department-of-finance)
+- [Department of Health](#department-of-health)
+- [Department of Human Settlements and Urban Development](#department-of-human-settlements-and-urban-development)
+- [Department of Information and Communications Technology](#department-of-information-and-communications-technology)
+- [Department of the Interior and Local Government](#department-of-the-interior-and-local-government)
+- [Department of Justice](#department-of-justice)
+- [Department of Labor and Employment](#department-of-labor-and-employment)
+- [Department of National Defense](#department-of-national-defense)
+- [Department of Public Works and Highways](#department-of-public-works-and-highways)
+- [Department of Science and Technology](#department-of-science-and-technology)
+- [Department of Social Welfare and Development](#department-of-social-welfare-and-development)
+- [Department of Tourism](#department-of-tourism)
+- [Department of Trade and Industry](#department-of-trade-and-industry)
+- [Department of Transportation](#department-of-transportation)
+- [National Economic and Development Authority](#national-economic-and-development-authority)
+
+**Government websites with Online Services**
+- [Business Trade](#business-trade)
+- [Certificates and IDs](#certificates-and-ids)
+
+---
 ## Departments
 
 ### National Government
