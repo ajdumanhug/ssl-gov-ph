@@ -8,40 +8,43 @@ I used the following tools to check and grade SSL:
 ### Summary of SSL Ratings
 | Ratings | Number of Gov Sites |
 | --- | --- | 
-| A+ | 1 |
-| A | 5 |
-| B | 18 |  
+| A+ | 2 |
+| A | 7 |
+| B | 23 |  
 | C | 4 | 
 | D | 0 |
 | E | 0 |
 | F | 2 |
 | T | 15 |
 | No SSL certificates were found | 9 |
+| Internal Server Error | 1 |
 
 ### Summary of SSL Status
 | Status | Number of Gov Sites |
 | --- | --- |
-| Active | 31 |
+| Active | 39 |
 | Expired | 13 |
 | Self-Signed | 1 |
 | No SSL certificates were found | 9 |
+| Internal Server Error | 1 |
 
 ### Summary of Certificate Issuer
 | Issuer | Number of Gov Sites |
 | --- | --- |
-| Let's Encrypt | 13 |
+| Let's Encrypt | 16 |
 | localhost 🤣 | 3 |
 | Entrust | 3 |
-| GlobalSign | 15 |
+| GlobalSign | 17 |
 | Go Daddy | 2 |
 | ZeroSSL | 1 |
 | GeoTrust | 2 |
-| CloudFlare | 2 |
-| DigiCert | 1 |
+| CloudFlare | 3 |
+| DigiCert | 3 |
 | Gov-SSL | 1 |
 | RapidSSL | 1 |
-| Sectigo | 1 |
+| Sectigo | 2 |
 | No SSL certificates were found | 9 |
+| Internal Server Error | 1 |
 
 ---
 ## Departments
@@ -237,3 +240,29 @@ I used the following tools to check and grade SSL:
 | Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at |
 | --- | --- | --- | --- | --- | --- |
 | http://nfa.gov.ph/ | Expired | April 21, 2020 | Let's Encrypt | [T](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/nfa.gov.ph.png) | July 5, 2020 |
+
+### [Certificates and IDs](https://www.gov.ph/certificates-and-ids)
+**Certificates**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at |
+| --- | --- | --- | --- | --- | --- |
+| https://sfu.dost.gov.ph/ | Active | September 23, 2020 | Let's Encrypt | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/sfu.dost.png) | July 5, 2020 |
+| https://psa.gov.ph/ | Internal Server Error | | | | July 5, 2020 
+| https://www.psaserbilis.com.ph/ | Active | June 10, 2022 | DigiCert | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/psaserbilis.png) | July 5, 2020 |
+
+**Clearances**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at |
+| --- | --- | --- | --- | --- | --- |
+| https://clearance.nbi.gov.ph/ | Active | July 18, 2020 | Let's Encrypt | [A+](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/clearance.nbi.png) | July 5, 2020 |
+
+**ID**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at |
+| --- | --- | --- | --- | --- | --- |
+| https://ecard.owwa.gov.ph/ | Active | June 26, 2021 | GlobalSign | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/ecard.owwa.png) | July 5, 2020 |
+| https://www.postalidph.com/ | Active | August 26, 2020 | Let's Encrypt | [A](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/postalidph.png) | July 5, 2020 |
+| https://www.ncda.gov.ph/ | Active | May 15, 2021 | Sectigo | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/ncda.png) | July 5, 2020 |
+| https://www.sss.gov.ph/ | Active | February 4, 2021 | GlobalSign | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/sss.png) | July 5, 2020 |
+
+**Voters**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at |
+| --- | --- | --- | --- | --- | --- |
+| https://www.comelec.gov.ph/ | Active | August 26, 2020 | CloudFlare | [A](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/comelec.png) | July 5, 2020 |
