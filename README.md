@@ -10,41 +10,41 @@ I used the following tools to check and grade SSL:
 | --- | --- | 
 | A+ | 2 |
 | A | 9 |
-| B | 26 |  
-| C | 4 | 
+| B | 30 |  
+| C | 5 | 
 | D | 0 |
 | E | 0 |
 | F | 3 |
-| T | 16 |
-| No SSL certificates were found | 10 |
+| T | 17 |
+| No SSL certificates were found | 11 |
 | Internal Server Error | 1 |
 
 ### Summary of SSL Status
 | Status | Number of Gov Sites |
 | --- | --- |
-| Active | 46 |
-| Expired | 13 |
+| Active | 51 |
+| Expired | 14 |
 | Self-Signed | 1 |
-| No SSL certificates were found | 10 |
+| No SSL certificates were found | 11 |
 | Internal Server Error | 1 |
 
 ### Summary of Certificate Issuer
 | Issuer | Number of Gov Sites |
 | --- | --- |
-| Let's Encrypt | 16 |
+| Let's Encrypt | 19 |
 | localhost 🤣 | 3 |
 | Entrust | 3 |
-| GlobalSign | 22 |
+| GlobalSign | 23 |
 | Go Daddy | 2 |
 | ZeroSSL | 1 |
 | GeoTrust | 2 |
-| CloudFlare | 3 |
-| DigiCert | 4 |
+| CloudFlare | 4 |
+| DigiCert | 5 |
 | Gov-SSL | 1 |
 | RapidSSL | 1 |
 | Sectigo | 2 |
 | tews2.asti.dost.gov.ph | 1 |
-| No SSL certificates were found | 9 |
+| No SSL certificates were found | 11 |
 | Internal Server Error | 1 |
 
 ---
@@ -82,6 +82,7 @@ I used the following tools to check and grade SSL:
 - [Certificates and IDs](#certificates-and-ids)
 - [Contributions](#contributions)
 - [Disaster and Weather](#disaster-and-weather)
+- [Education](#education)
 
 ---
 ## Departments
@@ -329,3 +330,31 @@ I used the following tools to check and grade SSL:
 | --- | --- | --- | --- | --- | --- |
 | http://fmon.asti.dost.gov.ph/ | Active | January 14, 2021 | tews2.asti.dost.gov.ph | [T](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/fmon.asti.dost.png) | July 6, 2020 |
 | http://noah.up.edu.ph/ | No SSL certificates were found | | | | July 6, 2020 |
+
+### [Education](https://www.gov.ph/education)
+**Financial Assistance**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://ched.gov.ph/ | Active | July 25, 2020 | GlobalSign | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/ched.png) | July 6, 2020 |
+| https://ovap.peac.org.ph/ | Active | October 9, 2020 | CloudFlare | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/ovap.peac.png) | July 6, 2020 |
+
+**Online Certificate Courses**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| http://ciap.dti.gov.ph/ | Expired | June 7, 2019 | DigiCert | [T](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/ciap.dti.png) | July 6, 2020 |
+| https://www.e-tesda.gov.ph/ | Active | September 16, 2020 | Let's Encrypt | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/e-tesda.png) | July 6, 2020 |
+
+**Professionals**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://bspms.dost.gov.ph/ | Active | September 23, 2020 | Let's Encrypt | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/bspms.dost.png) | July 6, 2020 |
+
+**Research and Proposal**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| http://www.projects.pchrd.dost.gov.ph/ | No SSL certificates were found | | | | July 6, 2020 |
+
+**Scholarships and Grants**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://www.tesda.gov.ph/ | Active | September 29, 2020 | Let's Encrypt | [C](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/tesda.png) | July 6, 2020 |
