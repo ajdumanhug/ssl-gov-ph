@@ -5,27 +5,27 @@ I used the following tools to check and grade SSL:
 - SSL Checker - https://www.sslshopper.com/ssl-checker.html
 - SSL Server Test - https://www.ssllabs.com/ssltest/index.html
 
-**TOTAL NUMBER OF SITES: 112**
+**TOTAL NUMBER OF SITES: 119**
 
 ### Summary of SSL Ratings
 | Ratings | Number of Gov Sites |
 | --- | --- | 
 | A+ | 2 |
-| A | 14 |
-| B | 39 |  
+| A | 19 |
+| B | 40 |  
 | C | 7 | 
 | D | 0 |
 | E | 0 |
 | F | 6 |
-| T | 20 |
+| T | 21 |
 | No SSL certificates were found | 23 |
 | Internal Server Error | 1 |
 
 ### Summary of SSL Status
 | Status | Number of Gov Sites |
 | --- | --- |
-| Active | 71 |
-| Expired | 16 |
+| Active | 77 |
+| Expired | 17 |
 | Self-Signed | 1 |
 | No SSL certificates were found | 23 |
 | Internal Server Error | 1 |
@@ -33,15 +33,15 @@ I used the following tools to check and grade SSL:
 ### Summary of Certificate Issuer
 | Issuer | Number of Gov Sites |
 | --- | --- |
-| Let's Encrypt | 25 |
+| Let's Encrypt | 27 |
 | localhost 🤣 | 3 |
 | Entrust | 4 |
-| GlobalSign | 29 |
+| GlobalSign | 32 |
 | Go Daddy | 2 |
 | ZeroSSL | 1 |
 | GeoTrust | 2 |
 | CloudFlare | 7 |
-| DigiCert | 7 |
+| DigiCert | 9 |
 | Gov-SSL | 1 |
 | RapidSSL | 1 |
 | Sectigo | 2 |
@@ -93,6 +93,7 @@ I used the following tools to check and grade SSL:
 - [Health](#health)
 - [Housing](#housing)
 - [Passport and Travel](#passport-and-travel)
+- [Social Services](#social-services)
 
 ---
 ## Departments
@@ -465,3 +466,23 @@ I used the following tools to check and grade SSL:
 | --- | --- | --- | --- | --- | --- |
 | http://immigration.gov.ph/ | Active | August 23, 2020 | Entrust | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/immigration.png) | July 7, 2020 |
 | https://cfo.ph/ | Active | November 16, 2020 | GlobalSign | [C](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/cfo.png) | July 7, 2020 |
+
+### [Social Services](https://www.gov.ph/social-services)
+**Benefits Registration**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://cec.philhealth.gov.ph/ | Active | March 3, 2022 | GlobalSign | [A](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/cec.philhealth.png) | July 7, 2020 |
+| https://crs.philhealth.gov.ph/ | Active | March 3, 2022 | GlobalSign | [A](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/crs.philhealth.png) | July 7, 2020 |
+
+**File Complaints**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://ereklamo.dswd.gov.ph/ | Active | September 16, 2020 | DigiCert | [A](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/ereklamo.dswd.png) | July 7, 2020 |
+| https://www.1343actionline.ph/ | Active | October 4, 2020 | Let's Encrypt | [A](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/1343actionline.png) | July 7, 2020 |
+| https://www.pcw.gov.ph/ | Active | October 17, 2020 | GlobalSign | [A](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/pcw.png) | July 7, 2020 |
+| http://legalassistance.poea.gov.ph/ | Expired | February 4, 2020 | DigiCert | [T](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/legalassistance.poea.png) | July 7, 2020 |
+
+**Register**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://balikprobinsya.ph/ | Active | September 30, 2020 | Let's Encrypt | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/balikprobinsya.png) | July 7, 2020 |
