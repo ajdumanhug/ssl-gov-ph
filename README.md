@@ -5,29 +5,29 @@ I used the following tools to check and grade SSL:
 - SSL Checker - https://www.sslshopper.com/ssl-checker.html
 - SSL Server Test - https://www.ssllabs.com/ssltest/index.html
 
-**TOTAL NUMBER OF SITES: 119**
+**TOTAL NUMBER OF SITES: 125**
 
 ### Summary of SSL Ratings
 | Ratings | Number of Gov Sites |
 | --- | --- | 
 | A+ | 2 |
 | A | 19 |
-| B | 40 |  
+| B | 42 |  
 | C | 7 | 
 | D | 0 |
 | E | 0 |
-| F | 6 |
+| F | 9 |
 | T | 21 |
-| No SSL certificates were found | 23 |
+| No SSL certificates were found | 24 |
 | Internal Server Error | 1 |
 
 ### Summary of SSL Status
 | Status | Number of Gov Sites |
 | --- | --- |
-| Active | 77 |
-| Expired | 17 |
+| Active | 81 |
+| Expired | 18 |
 | Self-Signed | 1 |
-| No SSL certificates were found | 23 |
+| No SSL certificates were found | 24 |
 | Internal Server Error | 1 |
 
 ### Summary of Certificate Issuer
@@ -36,12 +36,12 @@ I used the following tools to check and grade SSL:
 | Let's Encrypt | 27 |
 | localhost 🤣 | 3 |
 | Entrust | 4 |
-| GlobalSign | 32 |
+| GlobalSign | 36 |
 | Go Daddy | 2 |
 | ZeroSSL | 1 |
 | GeoTrust | 2 |
 | CloudFlare | 7 |
-| DigiCert | 9 |
+| DigiCert | 10 |
 | Gov-SSL | 1 |
 | RapidSSL | 1 |
 | Sectigo | 2 |
@@ -50,7 +50,7 @@ I used the following tools to check and grade SSL:
 | Amazon | 1 |
 | WIN-Q1L1DPH2NDO | 1 |
 | cPanel, Inc. | 1 |
-| No SSL certificates were found | 23 |
+| No SSL certificates were found | 24 |
 | Internal Server Error | 1 |
 
 ---
@@ -94,6 +94,7 @@ I used the following tools to check and grade SSL:
 - [Housing](#housing)
 - [Passport and Travel](#passport-and-travel)
 - [Social Services](#social-services)
+- [Tax](#tax)
 
 ---
 ## Departments
@@ -486,3 +487,26 @@ I used the following tools to check and grade SSL:
 | Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
 | --- | --- | --- | --- | --- | --- |
 | https://balikprobinsya.ph/ | Active | September 30, 2020 | Let's Encrypt | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/balikprobinsya.png) | July 7, 2020 |
+
+### [Tax](https://www.gov.ph/tax)
+**Certificates**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://etspcert.bir.gov.ph/ | Active | April 10, 2021 | GlobalSign | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/etspcert.bir.png) | July 7, 2020 |
+
+**File Taxes**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://irsis.bir.gov.ph/ | Expired | January 27, 2020 | DigiCert | [F](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/irsis.bir.png) | July 7, 2020 |
+| https://esales.bir.gov.ph/ | Active | April 10, 2021 | GlobalSign | [F](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/esales.bir.png) | July 7, 2020 |
+| https://eorb.bir.gov.ph/ | No SSL certificates were found | | | | July 7, 2020 |
+
+**Register**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://efps.bir.gov.ph/ | Active | April 10, 2021 | GlobalSign | [F](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/efps.bir.png) | July 7, 2020 |
+
+**Tax Calculation**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://taxcalculator.dof.gov.ph/ | Active | February 5, 2021 | GlobalSign | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/taxcalculator.dof.png) | July 7, 2020 |
