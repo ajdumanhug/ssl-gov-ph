@@ -5,29 +5,29 @@ I used the following tools to check and grade SSL:
 - SSL Checker - https://www.sslshopper.com/ssl-checker.html
 - SSL Server Test - https://www.ssllabs.com/ssltest/index.html
 
-**TOTAL NUMBER OF SITES: 96**
+**TOTAL NUMBER OF SITES: 103**
 
 ### Summary of SSL Ratings
 | Ratings | Number of Gov Sites |
 | --- | --- | 
 | A+ | 2 |
-| A | 12 |
-| B | 35 |  
+| A | 13 |
+| B | 37 |  
 | C | 6 | 
 | D | 0 |
 | E | 0 |
 | F | 5 |
 | T | 19 |
-| No SSL certificates were found | 16 |
+| No SSL certificates were found | 20 |
 | Internal Server Error | 1 |
 
 ### Summary of SSL Status
 | Status | Number of Gov Sites |
 | --- | --- |
-| Active | 62 |
+| Active | 65 |
 | Expired | 16 |
 | Self-Signed | 1 |
-| No SSL certificates were found | 16 |
+| No SSL certificates were found | 20 |
 | Internal Server Error | 1 |
 
 ### Summary of Certificate Issuer
@@ -36,12 +36,12 @@ I used the following tools to check and grade SSL:
 | Let's Encrypt | 24 |
 | localhost 🤣 | 3 |
 | Entrust | 3 |
-| GlobalSign | 26 |
+| GlobalSign | 27 |
 | Go Daddy | 2 |
 | ZeroSSL | 1 |
 | GeoTrust | 2 |
-| CloudFlare | 6 |
-| DigiCert | 5 |
+| CloudFlare | 7 |
+| DigiCert | 6 |
 | Gov-SSL | 1 |
 | RapidSSL | 1 |
 | Sectigo | 2 |
@@ -49,7 +49,7 @@ I used the following tools to check and grade SSL:
 | CSC-COMEX | 1 |
 | Amazon | 1 |
 | WIN-Q1L1DPH2NDO | 1 |
-| No SSL certificates were found | 16 |
+| No SSL certificates were found | 20 |
 | Internal Server Error | 1 |
 
 ---
@@ -89,6 +89,7 @@ I used the following tools to check and grade SSL:
 - [Disaster and Weather](#disaster-and-weather)
 - [Education](#education)
 - [Employment](#employment)
+- [Health](#health)
 
 ---
 ## Departments
@@ -99,7 +100,6 @@ I used the following tools to check and grade SSL:
 | https://www.gov.ph/ | Expired | June 28, 2020 | Let's Encrypt | [T](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov.png) | July 4, 2020 |
 | http://malacanang.gov.ph/ | Self-Signed | November 27, 2026 | localhost.localdomain | [T](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/malacanang.png) | July 4, 2020 |
 | https://www.officialgazette.gov.ph/ | Active | February 11, 2021 |  Entrust | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/officialgazette.png) | July 4, 2020 |
-
 
 ### Office of the President	
 | Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at |
@@ -403,3 +403,31 @@ I used the following tools to check and grade SSL:
 | --- | --- | --- | --- | --- | --- |
 | https://blr.dole.gov.ph/ | Active | October 9, 2020 | CloudFlare | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/blr.dole.png) | July 6, 2020 |
 | https://blr-ours.dole.gov.ph/ | Active | October 9, 2020 | CloudFlare | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/blr-ours.png) | July 6, 2020 |
+
+### [Health](https://www.gov.ph/health)
+**Complaints**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://ww2.fda.gov.ph/ | Active | October 8, 2020 | CloudFlare | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/ww2.fda.png) | July 6, 2020 |
+
+**Financial Assistance**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://www.pcso.gov.ph/ | Active | August 4, 2021 | DigiCert | [A](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/pcso.png) | July 6, 2020 |
+
+**Health Facilities**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://nhfr.doh.gov.ph/ | Active | June 13, 2021 | GlobalSign | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/nhfr.doh.png) | July 6, 2020 |
+
+**Health Programs**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| http://oltrap.pchrd.dost.gov.ph/ | No SSL certificates were found | | | | July 6, 2020 |
+| http://drugdiscovery.pchrd.dost.gov.ph/ | No SSL certificates were found | | | | July 6, 2020 |
+
+**Health Researches**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| http://www.registry.healthresearch.ph/ | No SSL certificates were found | | | | July 6, 2020 |
+| http://www.herdin.ph/ | No SSL certificates were found | | | | July 6, 2020 |
