@@ -5,29 +5,29 @@ I used the following tools to check and grade SSL:
 - SSL Checker - https://www.sslshopper.com/ssl-checker.html
 - SSL Server Test - https://www.ssllabs.com/ssltest/index.html
 
-**TOTAL NUMBER OF SITES: 107**
+**TOTAL NUMBER OF SITES: 112**
 
 ### Summary of SSL Ratings
 | Ratings | Number of Gov Sites |
 | --- | --- | 
 | A+ | 2 |
 | A | 14 |
-| B | 37 |  
-| C | 6 | 
+| B | 39 |  
+| C | 7 | 
 | D | 0 |
 | E | 0 |
-| F | 5 |
+| F | 6 |
 | T | 20 |
-| No SSL certificates were found | 22 |
+| No SSL certificates were found | 23 |
 | Internal Server Error | 1 |
 
 ### Summary of SSL Status
 | Status | Number of Gov Sites |
 | --- | --- |
-| Active | 67 |
+| Active | 71 |
 | Expired | 16 |
 | Self-Signed | 1 |
-| No SSL certificates were found | 22 |
+| No SSL certificates were found | 23 |
 | Internal Server Error | 1 |
 
 ### Summary of Certificate Issuer
@@ -35,13 +35,13 @@ I used the following tools to check and grade SSL:
 | --- | --- |
 | Let's Encrypt | 25 |
 | localhost 🤣 | 3 |
-| Entrust | 3 |
-| GlobalSign | 27 |
+| Entrust | 4 |
+| GlobalSign | 29 |
 | Go Daddy | 2 |
 | ZeroSSL | 1 |
 | GeoTrust | 2 |
 | CloudFlare | 7 |
-| DigiCert | 6 |
+| DigiCert | 7 |
 | Gov-SSL | 1 |
 | RapidSSL | 1 |
 | Sectigo | 2 |
@@ -50,7 +50,7 @@ I used the following tools to check and grade SSL:
 | Amazon | 1 |
 | WIN-Q1L1DPH2NDO | 1 |
 | cPanel, Inc. | 1 |
-| No SSL certificates were found | 22 |
+| No SSL certificates were found | 23 |
 | Internal Server Error | 1 |
 
 ---
@@ -92,6 +92,7 @@ I used the following tools to check and grade SSL:
 - [Employment](#employment)
 - [Health](#health)
 - [Housing](#housing)
+- [Passport and Travel](#passport-and-travel)
 
 ---
 ## Departments
@@ -446,3 +447,21 @@ I used the following tools to check and grade SSL:
 | https://www.lra.gov.ph/ | Active | September 3, 2020 | cPanel, Inc. | [A](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/lra.png) | July 6, 2020 |
 | http://citrixvss.ilfstechnologies.com/ | No SSL certificates were found | | | | July 6, 2020 |
 | http://www.hgc.gov.ph/ | No SSL certificates were found | | | | July 6, 2020 |
+
+### [Passport and Travel](https://www.gov.ph/passport-and-travel)
+**Tourism**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| http://accreditationonline.tourism.gov.ph/ | No SSL certificates were found | | | | July 7, 2020 |
+
+**Travel**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://www.passport.gov.ph/ | Active | August 5, 2022 | DigiCert | [F](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/passport.png) | July 7, 2020 |
+| https://consular.dfa.gov.ph/ | Active | May 31, 2021 | GlobalSign | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/consular.dfa.png) | July 7, 2020 |
+
+**Visa and Citizenship**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| http://immigration.gov.ph/ | Active | August 23, 2020 | Entrust | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/immigration.png) | July 7, 2020 |
+| https://cfo.ph/ | Active | November 16, 2020 | GlobalSign | [C](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/cfo.png) | July 7, 2020 |
