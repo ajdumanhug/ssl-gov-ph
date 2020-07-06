@@ -5,46 +5,51 @@ I used the following tools to check and grade SSL:
 - SSL Checker - https://www.sslshopper.com/ssl-checker.html
 - SSL Server Test - https://www.ssllabs.com/ssltest/index.html
 
+**TOTAL NUMBER OF SITES: 96**
+
 ### Summary of SSL Ratings
 | Ratings | Number of Gov Sites |
 | --- | --- | 
 | A+ | 2 |
-| A | 9 |
-| B | 30 |  
-| C | 5 | 
+| A | 12 |
+| B | 35 |  
+| C | 6 | 
 | D | 0 |
 | E | 0 |
-| F | 3 |
-| T | 17 |
-| No SSL certificates were found | 11 |
+| F | 5 |
+| T | 19 |
+| No SSL certificates were found | 16 |
 | Internal Server Error | 1 |
 
 ### Summary of SSL Status
 | Status | Number of Gov Sites |
 | --- | --- |
-| Active | 51 |
-| Expired | 14 |
+| Active | 62 |
+| Expired | 16 |
 | Self-Signed | 1 |
-| No SSL certificates were found | 11 |
+| No SSL certificates were found | 16 |
 | Internal Server Error | 1 |
 
 ### Summary of Certificate Issuer
 | Issuer | Number of Gov Sites |
 | --- | --- |
-| Let's Encrypt | 19 |
+| Let's Encrypt | 24 |
 | localhost 🤣 | 3 |
 | Entrust | 3 |
-| GlobalSign | 23 |
+| GlobalSign | 26 |
 | Go Daddy | 2 |
 | ZeroSSL | 1 |
 | GeoTrust | 2 |
-| CloudFlare | 4 |
+| CloudFlare | 6 |
 | DigiCert | 5 |
 | Gov-SSL | 1 |
 | RapidSSL | 1 |
 | Sectigo | 2 |
 | tews2.asti.dost.gov.ph | 1 |
-| No SSL certificates were found | 11 |
+| CSC-COMEX | 1 |
+| Amazon | 1 |
+| WIN-Q1L1DPH2NDO | 1 |
+| No SSL certificates were found | 16 |
 | Internal Server Error | 1 |
 
 ---
@@ -83,6 +88,7 @@ I used the following tools to check and grade SSL:
 - [Contributions](#contributions)
 - [Disaster and Weather](#disaster-and-weather)
 - [Education](#education)
+- [Employment](#employment)
 
 ---
 ## Departments
@@ -358,3 +364,42 @@ I used the following tools to check and grade SSL:
 | Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
 | --- | --- | --- | --- | --- | --- |
 | https://www.tesda.gov.ph/ | Active | September 29, 2020 | Let's Encrypt | [C](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/tesda.png) | July 6, 2020 |
+
+### [Employment](https://www.gov.ph/employment)
+**Financial Assistance**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://dole-akap.owwa.gov.ph/ | Active | June 26, 2021 | GlobalSign | [T](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/dole-akap.owwa.png) | July 6, 2020 |
+
+**Job Openings**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://csc.gov.ph/ | No SSL certificates were found | | | | July 6, 2020 |
+| https://www.philjobnet.gov.ph/ | Active | September 26, 2020 | Let's Encrypt | [A](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/philjobnet.png) | July 6, 2020 |
+| http://www.poea.gov.ph/ | Expired | March 1, 2020 | WIN-Q1L1DPH2NDO | [F](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/poea.png) | July 6, 2020 | 
+
+**Overseas Jobs**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://www.bmonline.ph/ | Active | January 14, 2021 | Amazon | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/bmonline.png) | July 6, 2020 |
+| https://onlinelegalcounseling.1343actionline.ph/ | Active | August 4, 2020 | Let's Encrypt | [A](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/onlinelegalcounseling.1343actionline.png) | July 6, 2020 |
+| https://balinkbayan.gov.ph/ | Active | August 4, 2020 | Let's Encrypt | [A](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/balinkbayan.png) | July 6, 2020 |
+| http://peos.poea.gov.ph/ | No SSL certificates were found | | | | July 6, 2020 |
+| http://uwianna.owwa.gov.ph/ | Active | June 26, 2021 | Global Sign | [T](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/uwianna.owwa.png) | July 6, 2020 |
+| http://onlineservices.poea.gov.ph/ | No SSL certificates were found | | | | July 6, 2020 |
+| http://ofwrecords.poea.gov.ph/ | No SSL certificates were found | | | | July 6, 2020 |
+
+**Professionals**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://cpdas.prc.gov.ph/ | Active | August 22, 2020 | GlobalSign | [C](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/cpdas.prc.png) | July 6, 2020 |
+| https://comex.csc.gov.ph/ | Expired | April 27, 2015 | CSC-COMEX | [F](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/comex.csc.png) | july 6, 2020 |
+| https://www.prc.gov.ph/ | Active | August 29, 2020 | Let's Encrypt | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/prc.png) | July 6, 2020 |
+| http://erpo.csc.gov.ph/ | No SSL certificates were found | | | | July 6, 2020 |
+| https://online.prc.gov.ph/ | Active | August 29, 2020 | Let's Encrypt | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/online.prc.png) | July 6, 2020 |
+
+**Union Association**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://blr.dole.gov.ph/ | Active | October 9, 2020 | CloudFlare | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/blr.dole.png) | July 6, 2020 |
+| https://blr-ours.dole.gov.ph/ | Active | October 9, 2020 | CloudFlare | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/blr-ours.png) | July 6, 2020 |
