@@ -5,14 +5,14 @@ I used the following tools to check and grade SSL:
 - SSL Checker - https://www.sslshopper.com/ssl-checker.html
 - SSL Server Test - https://www.ssllabs.com/ssltest/index.html
 
-**TOTAL NUMBER OF SITES: 125**
+**TOTAL NUMBER OF SITES: 128**
 
 ### Summary of SSL Ratings
 | Ratings | Number of Gov Sites |
 | --- | --- | 
 | A+ | 2 |
 | A | 19 |
-| B | 42 |  
+| B | 45 |  
 | C | 7 | 
 | D | 0 |
 | E | 0 |
@@ -24,7 +24,7 @@ I used the following tools to check and grade SSL:
 ### Summary of SSL Status
 | Status | Number of Gov Sites |
 | --- | --- |
-| Active | 81 |
+| Active | 84 |
 | Expired | 18 |
 | Self-Signed | 1 |
 | No SSL certificates were found | 24 |
@@ -36,7 +36,7 @@ I used the following tools to check and grade SSL:
 | Let's Encrypt | 27 |
 | localhost 🤣 | 3 |
 | Entrust | 4 |
-| GlobalSign | 36 |
+| GlobalSign | 37 |
 | Go Daddy | 2 |
 | ZeroSSL | 1 |
 | GeoTrust | 2 |
@@ -49,7 +49,8 @@ I used the following tools to check and grade SSL:
 | CSC-COMEX | 1 |
 | Amazon | 1 |
 | WIN-Q1L1DPH2NDO | 1 |
-| cPanel, Inc. | 1 |
+| cPanel, Inc. | 2 |
+| GoGetSSL | 1 |
 | No SSL certificates were found | 24 |
 | Internal Server Error | 1 |
 
@@ -95,6 +96,7 @@ I used the following tools to check and grade SSL:
 - [Passport and Travel](#passport-and-travel)
 - [Social Services](#social-services)
 - [Tax](#tax)
+- [Transport and Driving](#transport-and-driving)
 
 ---
 ## Departments
@@ -510,3 +512,15 @@ I used the following tools to check and grade SSL:
 | Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
 | --- | --- | --- | --- | --- | --- |
 | https://taxcalculator.dof.gov.ph/ | Active | February 5, 2021 | GlobalSign | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/taxcalculator.dof.png) | July 7, 2020 |
+
+### [Transport and Driving](https://www.gov.ph/transport-and-driving)
+**License**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://www.lto.net.ph/ | Active | May 18, 2022 | GlobalSign | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/lto.net.png) | July 7, 2020 |
+| https://www.lto.gov.ph/ | Active | October 28, 2020 | GoGetSSL | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/lto.gov.png) | July 7, 2020 |
+
+**Transport Complains**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://www.mayhuliba.com/ | Active | August 29, 2020 | cPanel, Inc. | [B](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/mayhuliba.png) | July 4, 2020 | 
