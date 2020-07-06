@@ -5,35 +5,35 @@ I used the following tools to check and grade SSL:
 - SSL Checker - https://www.sslshopper.com/ssl-checker.html
 - SSL Server Test - https://www.ssllabs.com/ssltest/index.html
 
-**TOTAL NUMBER OF SITES: 103**
+**TOTAL NUMBER OF SITES: 107**
 
 ### Summary of SSL Ratings
 | Ratings | Number of Gov Sites |
 | --- | --- | 
 | A+ | 2 |
-| A | 13 |
+| A | 14 |
 | B | 37 |  
 | C | 6 | 
 | D | 0 |
 | E | 0 |
 | F | 5 |
-| T | 19 |
-| No SSL certificates were found | 20 |
+| T | 20 |
+| No SSL certificates were found | 22 |
 | Internal Server Error | 1 |
 
 ### Summary of SSL Status
 | Status | Number of Gov Sites |
 | --- | --- |
-| Active | 65 |
+| Active | 67 |
 | Expired | 16 |
 | Self-Signed | 1 |
-| No SSL certificates were found | 20 |
+| No SSL certificates were found | 22 |
 | Internal Server Error | 1 |
 
 ### Summary of Certificate Issuer
 | Issuer | Number of Gov Sites |
 | --- | --- |
-| Let's Encrypt | 24 |
+| Let's Encrypt | 25 |
 | localhost 🤣 | 3 |
 | Entrust | 3 |
 | GlobalSign | 27 |
@@ -49,7 +49,8 @@ I used the following tools to check and grade SSL:
 | CSC-COMEX | 1 |
 | Amazon | 1 |
 | WIN-Q1L1DPH2NDO | 1 |
-| No SSL certificates were found | 20 |
+| cPanel, Inc. | 1 |
+| No SSL certificates were found | 22 |
 | Internal Server Error | 1 |
 
 ---
@@ -90,6 +91,7 @@ I used the following tools to check and grade SSL:
 - [Education](#education)
 - [Employment](#employment)
 - [Health](#health)
+- [Housing](#housing)
 
 ---
 ## Departments
@@ -431,3 +433,16 @@ I used the following tools to check and grade SSL:
 | --- | --- | --- | --- | --- | --- |
 | http://www.registry.healthresearch.ph/ | No SSL certificates were found | | | | July 6, 2020 |
 | http://www.herdin.ph/ | No SSL certificates were found | | | | July 6, 2020 |
+
+### [Housing](https://www.gov.ph/housing)
+**Housing Loans**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| http://nha.gov.ph/ | Active | April 21, 2020 | Let's Encrypt | [T](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/nha.png) | July 6, 2020 |
+
+**Land Titles**
+| Domain/Subdomain | SSL | Expiration Date | Issued by | SSL Rating | Last checked at | 
+| --- | --- | --- | --- | --- | --- |
+| https://www.lra.gov.ph/ | Active | September 3, 2020 | cPanel, Inc. | [A](https://github.com/ajdumanhug/ssl-gov-ph/blob/master/ssl-rating/gov-services/lra.png) | July 6, 2020 |
+| http://citrixvss.ilfstechnologies.com/ | No SSL certificates were found | | | | July 6, 2020 |
+| http://www.hgc.gov.ph/ | No SSL certificates were found | | | | July 6, 2020 |
